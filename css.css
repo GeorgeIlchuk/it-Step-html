@@ -1,4 +1,4 @@
 body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerXSLyIQQLdskn41dy8ysxGgq7DmEXTt9Aw&s");
+    background-image: linear-gradient(to right,rgb(255, 0, 85),rgb(208, 255, 0));
     background-size: cover;
 }
