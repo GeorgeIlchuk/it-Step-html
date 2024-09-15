@@ -1,0 +1,40 @@
+div{
+    margin-top: 15px;
+    text-align: center
+}
+#container{
+    width: auto;
+    background-color: ;
+}
+h2{
+    margin: auto;
+}
+.header{
+    height: 150px;
+    background-color: purple ;
+}
+.navigation{
+    height: 40px;
+    background-color:green ;
+}
+.content{
+    float: left;
+    width: 75%;
+    height: 250px;
+    background-color:blue ;  
+}
+.sidebar{
+    float: right;
+    width: 25%;
+    height: 250px;
+    background-color:rgb(255, 230, 0) ;  
+}
+.footer{
+    display: flex;
+    margin-top: 25px;
+    height: 150;
+    background: orange;
+}
+.clear{
+    clear: both;
+} 
