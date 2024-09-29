@@ -1,6 +1,7 @@
 header,footer{
     background: rgb(255, 217, 148)
 }
+
 .footer-columns{
     display: flex;
 }
@@ -64,6 +65,29 @@ main{
 }
 #menu1 ul li ul li a{
     padding: 7px 25px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-top: 2px solid #fff;
+}
+.carousele{
+    margin: 10px;
+    max-width: 100%;
+}
+.carousele-element{
+    margin: 40px;
+}
+.carousele div img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.slick-prev, .slick-next{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.slick-dots li button:before{
+    color:black;
+    font-size: 30px;
 }
