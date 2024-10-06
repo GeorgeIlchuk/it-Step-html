@@ -1,6 +1,9 @@
 header,footer{
     background: rgb(255, 217, 148)
 }
+header{
+    display: flex;
+}
 
 .footer-columns{
     display: flex;
