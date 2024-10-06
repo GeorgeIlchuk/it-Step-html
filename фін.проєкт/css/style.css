@@ -201,6 +201,7 @@ main {
 .city{
   position: absolute;
   padding: 10px;
+  transition: 0.5s;
   background-color: rgb(129, 129, 129);
   border-radius: 10px;
   cursor: pointer;
