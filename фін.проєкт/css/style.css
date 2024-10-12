@@ -231,6 +231,9 @@ main {
   color: white;
   transition: transform 0.3s ease, background-color 0.3 ease;
 }
+.post{
+  width: 50%;
+}
 .city-1{top:60px; left: 120px;}
 .city-2{top:180px; left: 230px;}
 .city-3{top:120px; left: 350px;}

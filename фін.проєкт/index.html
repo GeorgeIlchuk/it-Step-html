@@ -23,17 +23,18 @@
     <nav id="menu1">
       <ul>
         <li><a href="#m1">Головна</a></li>
-        <li><a onclick="scrollToBottom()">Про нас</a></li>
+        <li><a onclick="scrollToSection('footer')">Про нас</a></li>
         <li><a href="#m3">Мої улюблені ігри</a>
           <ul>
-            <li><a href="#m3_1">Dota 2</a></li>
-            <li><a href="#m3_2">CS:GO</a></li>
-            <li><a href="#m3_3">Valorant</a></li>
-            <li><a href="#m3_4">Fortnite</a></li>
-            <li><a href="#m3_5">League of Legends</a></li>
+            <li><a onclick="scrollToSection('posts1')">Dota 2</a></li>
+            <li><a onclick="scrollToSection('posts1')">CS:GO</a></li>
+            <li><a onclick="scrollToSection('posts2')">Valorant</a></li>
+            <li><a onclick="scrollToSection('posts2')">Fortnite</a></li>
+            <li><a onclick="scrollToSection('posts3')">League of Legends</a></li>
+            <li><a onclick="scrollToSection('posts3')">PUBG</a></li>
           </ul>
         </li>
-        <li><a onclick="scrollToBottom()">контакти</a></li>
+        <li><a onclick="scrollToSection('footer')">контакти</a></li>
         <li><a href="#m5">Налаштування</a></li>
       </ul>
     </nav>
@@ -43,44 +44,50 @@
     <h1><center>COMPUTER GAMES</center></h1>
     <div class="carousele">
       <div class="carousele-element">
-
-        <img
-          src="img/download.jpg" height="5000"/>
-
+        <a href="postDota2.html">
+          <img
+            src="img/download.jpg" height="5000"/>
+        </a>
       </div>
       <div class="carousele-element">
-
-        <img
-          src="img/download (1).jpg" />
-
+        <a href="postCSGO.html">  
+          <img
+            src="img/download (1).jpg" />
+        </a>
       </div>
       <div class="carousele-element">
-
-        <img
-          src="img/download (3).jpg" />
-
+        <a href="postValorant.html">
+          <img
+            src="img/download (3).jpg" />
+        </a>
       </div>
       <div class="carousele-element">
-
-        <img
-          src="img/download (4).jpg" />
-
+        <a href="postFortnitet.html">  
+          <img
+            src="img/download (4).jpg" />
+        </a>
       </div>
       <div class="carousele-element">
-
-        <img
-          src="img/завантаження.png" />
-
+        <a href="postLeagueOfLegends.html">  
+          <img
+            src="img/lh.png" />
+        </a>
+      </div>
+      <div class="carousele-element">
+        <a href="postPUBG.html">
+          <img
+            src="img/ph.png" />
+        </a>
       </div>
     </div>
-    <div class="posts">
+    <div class="posts" id = "posts1">
       <div class="post">
         <img
           src='img/download (2).jpg'
           width='200' height="250">
         <div>
           <h3>Dota 2</h3>
-          <p>популярна MOBA-гра, де команди з п’яти гравців змагаються на карті, намагаючись знищити базу противника.</p>
+          <p>Dota 2 is a free-to-play multiplayer online battle arena (MOBA) game developed and published by Valve Corporation. It is one of the most popular esports games globally, known for its deep strategy, intense team-based gameplay, and complex mechanics.</p>
           <a href='post.html'>Read more</a>
         </div>
 
@@ -91,54 +98,61 @@
           width='200' height="250">
         <div>
           <h3>CS:GO</h3>
-          <p>класичний шутер від першої особи, що зосереджений на командній грі та тактиці.</p>
+          <p>CS (Counter-Strike: Global Offensive) is a highly popular first-person shooter (FPS) game developed by Valve and Hidden Path Entertainment. Released in 2012, it's the fourth game in the Counter-Strike series and remains one of the most played and successful multiplayer games in the world.</p>
           <a href='#'>Read more</a>
         </div>
 
       </div>
+      
+      
+    </div>
+    <div class="posts" id = "posts2">
       <div class="post">
         <img
           src='img/завантаження.jpg'
           width='200' height="250">
         <div>
           <h3>Valorant </h3>
-          <p>тактичний шутер з елементами героїв, де гравці використовують унікальні здібності разом з вогнепальною зброєю.          </p>
+          <p>Valorant is a free-to-play first-person tactical shooter developed by Riot Games, released in June 2020. The game combines precise shooting mechanics with strategic team-based gameplay, making it one of the most popular esports titles today.         </p>
           <a href='#'>Read more</a>
         </div>
         
       </div>
-      
-    </div>
-    <div class="posts">
       <div class="post">
         <img
-          src='img/download (2).jpg'
+          src='img/f.png'
           width='200' height="250">
         <div>
-          <h3>Dota 2</h3>
-          <p>популярна MOBA-гра, де команди з п’яти гравців змагаються на карті, намагаючись знищити базу противника.</p>
+          <h3>Fortnite</h3>
+          <p>Fortnite is an immensely popular online video game developed by Epic Games and released in 2017. It has become a cultural phenomenon, attracting millions of players worldwide with its vibrant graphics and innovative gameplay.</p>
           <a href='post.html'>Read more</a>
         </div>
 
       </div>
+        
+      </div>
+      
+    </div>
+    <div class="posts" id = "posts3">
+      
       <div class="post">
         <img
-          src='/it-Step-html/фін.проєкт/img/завантаженняzz.png'
+          src='img/lv.png'
           width='200' height="250">
         <div>
-          <h3>CS:GO</h3>
-          <p>класичний шутер від першої особи, що зосереджений на командній грі та тактиці.</p>
+          <h3>League of Legends</h3>
+          <p>League of Legends (often abbreviated as LoL) is a highly popular multiplayer online battle arena (MOBA) game developed by Riot Games. Launched in 2009, it has become one of the most played and influential games in the world, particularly in the esports scene. In a typical match, two teams of five players compete on a map called Summoner's Rift.</p>
           <a href='#'>Read more</a>
         </div>
 
       </div>
       <div class="post">
         <img
-          src='img/завантаження.jpg'
+          src='img/pv.jpg'
           width='200' height="250">
         <div>
-          <h3>Valorant </h3>
-          <p>тактичний шутер з елементами героїв, де гравці використовують унікальні здібності разом з вогнепальною зброєю.          </p>
+          <h3>PUBG </h3>
+          <p>PUBG (PlayerUnknown's Battlegrounds) is a popular battle royale game developed by PUBG Studios. It was one of the first major games in the battle royale genre and helped to popularize the format</p>
           <a href='#'>Read more</a>
         </div>
         
@@ -159,7 +173,7 @@
   <footer>
     <div>
       <div>
-        <div class="footer-columns">
+        <div class="footer-columns" id = "footer">
           <div class="footer-column">
             <h3>About</h3>
             <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Facilisi euismod montes volutpat dolor maecenas
@@ -190,10 +204,9 @@
   <script type="text/javascript" src="./script/script.js"></script>
 
   <script>
-    function scrollToBottom() {
-        window.scrollTo({
-            top: document.body.scrollHeight, 
-            behavior: 'smooth'
+    function scrollToSection(q) {
+        document.getElementById(q).scrollIntoView({
+            behavior: 'smooth' // Плавна анімація скролінгу
         });
     }
     </script>
