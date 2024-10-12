@@ -1,10 +1,27 @@
 header,footer {
-  background: #4FC3F7;
-  padding: 10px;
+  background: #07002c;
+  padding-top: 10px;
 }
-
+h1{
+  color: orange;
+}
+p,h2{
+  color: wheat;
+}
+footer{
+  padding-bottom: 20px;
+  background-color: #000;
+  color: whitesmoke ;
+}
+body{
+  margin: 0;
+}
 header {
   display: flex;
+}
+
+a {
+  text-decoration: none;
 }
 
 #menu1 {
@@ -33,14 +50,14 @@ header {
   padding: 9px 25px;
   font-size: 14px;
   text-transform: uppercase;
-  color: white;
+  color: rgb(255, 255, 255);
   display: inline-block;
   font-family: "Ubuntu",sans-serif;
   transition: transform 0.3s;
 }
 #menu1 ul li a:hover{
-  transform: scale(1.1) rotate(-5deg);
-  color: lawngreen;
+  transform: scale(1.1);
+  color: rgb(255, 0, 0);
 }
 
 #menu1 ul li ul {
@@ -48,7 +65,7 @@ header {
   top: 36px;
   display: none;
   width: 200px;
-  background: #38b6ff;
+  background: #c800ff;
 }
 
 #menu1 ul li:hover ul {
@@ -57,7 +74,7 @@ header {
 
 #menu1 ul li ul li {
   float: none;
-  border-top: 3px solid #fff;
+  border-top: 3px solid rgb(169, 255, 195);
   width: 100%;
 }
 
@@ -69,7 +86,10 @@ header {
 
 main {
   padding: 10px;
-  background-color: silver;
+  background:url(../img/завантаженняz.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
 }
 
 .posts {
@@ -78,11 +98,11 @@ main {
 
 .post {
   display: flex;
-  background-color: white;
+  background-color: purple;
   padding: 20px;
   border-radius: 10px;
   margin-right: 20px;
-
+  
 }
 
 .post img {
@@ -140,12 +160,15 @@ main {
   transition: 0.5s;
 }
 .carousele img:hover{
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 #game-map{
   text-align: center;
   padding: 50px;
-  background-color: rgb(143, 143, 143);
+}
+
+.posts{
+  padding-top: 20px;
 }
 .map-container{
   position: relative;
