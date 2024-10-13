@@ -143,7 +143,6 @@ main {
   color: #000; /* Колір крапок */
   font-size: 30px;
 }
-
 .footer-columns {
   display: flex;
 }

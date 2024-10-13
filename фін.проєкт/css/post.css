@@ -1,0 +1,145 @@
+h1{
+    color: wheat;
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    margin: 0px;
+    background:url(../img/завантаженняz.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+
+}
+.avatar{
+    float: left;
+}
+header,footer {
+    background: #07002c;
+    padding-top: 10px;
+  }
+footer{
+    padding-bottom: 20px;
+    background-color: #000;
+    color: whitesmoke ;
+  }
+header{
+    display: flex;
+}
+a {
+    text-decoration: none;
+  }
+  
+  #menu1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+  }
+  
+  #menu1 ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  }
+  
+  #menu1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+  }
+  
+  #menu1 ul li a {
+    padding: 9px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Ubuntu",sans-serif;
+    transition: transform 0.3s;
+  }
+  #menu1 ul li a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+  }
+  
+  #menu1 ul li ul {
+    position: absolute;
+    top: 36px;
+    display: none;
+    width: 200px;
+    background: #c800ff;
+  }
+  
+  #menu1 ul li:hover ul {
+    display: block;
+  }
+  
+  #menu1 ul li ul li {
+    float: none;
+    border-top: 3px solid rgb(169, 255, 195);
+    width: 100%;
+  }
+  
+  #menu1 ul li ul li a {
+    padding: 7px 25px;
+    color: white;
+  }
+  
+  
+footer{
+    color: whitesmoke;
+}
+.footer-columns{
+    display: flex;
+}
+.footer-column{
+    flex: 50%;
+    margin: 20px;
+}
+main{
+    padding: 10px;
+
+}
+.post{
+    background-color: purple;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    color: wheat;
+}
+.comments{
+    background-color: rgb(240, 255, 186);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.autor{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+h5{
+    color: rgb(110, 110, 110);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#sub-comment{
+    margin-left: 40px;
+}
+.img{
+    margin-right: 10px ;
+}
+.comment{
+    margin-left: 20px;
+}
+span{
+    color: black;
+}
+img{
+    border-radius: 30px;
+}

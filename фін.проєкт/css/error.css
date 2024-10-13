@@ -1,0 +1,239 @@
+header,footer {
+    background: #07002c;
+    padding-top: 10px;
+  }
+  h1{
+    color: orange;
+  }
+  p,h2{
+    color: wheat;
+  }
+  footer{
+    padding-top: 0;
+    padding-bottom: 20px;
+    background-color: #000;
+    color: whitesmoke ;
+  }
+  body{
+    margin: 0;
+  }
+  header {
+    display: flex;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  #menu1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+  }
+  
+  #menu1 ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  }
+  
+  #menu1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+  }
+  
+  #menu1 ul li a {
+    padding: 9px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Ubuntu",sans-serif;
+    transition: transform 0.3s;
+  }
+  #menu1 ul li a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+  }
+  
+  #menu1 ul li ul {
+    position: absolute;
+    top: 36px;
+    display: none;
+    width: 200px;
+    background: #c800ff;
+  }
+  
+  #menu1 ul li:hover ul {
+    display: block;
+  }
+  
+  #menu1 ul li ul li {
+    float: none;
+    border-top: 3px solid rgb(169, 255, 195);
+    width: 100%;
+  }
+  
+  #menu1 ul li ul li a {
+    padding: 7px 25px;
+    color: white;
+  }
+  
+  
+  main {
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+  }
+  
+  .posts {
+    display: flex;
+  }
+  
+  .post {
+    display: flex;
+    background-color: purple;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+  }
+  
+  .post img {
+    border-radius: 20px;
+    margin: 20px;
+    transition: transform 0.5s;
+  }
+  .post-info{
+    color: gray;
+  }
+  .post img:hover{
+    transform: scale(1.2);
+  }
+  
+  
+  .carousele {
+    margin: 10px;
+    max-width: 100%; 
+   
+  }
+  .carousele-element {
+    margin: 40px;
+  }
+  .carousele div img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .slick-prev, .slick-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+  }
+  
+  .slick-dots li button:before {
+    color: #000; /* Колір крапок */
+    font-size: 30px;
+  }
+  .footer-columns {
+    display: flex;
+  }
+  
+  .footer-column {
+    flex: 50%;
+    margin: 20px;
+  }
+  .nav{
+    display: flex;
+  }
+  .carousele img{
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  .carousele img:hover{
+    transform: scale(1.1);
+  }
+  #game-map{
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .posts{
+    padding-top: 20px;
+  }
+  .map-container{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    background: url(../img/LEGO-corporate-map.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(88, 88, 88);
+  }
+  .city::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #38b6ff;
+    border-radius: 50%;
+    transform: scale(1);
+    transform-origin: center;
+    opacity: 0;
+    z-index: -1;
+    transition: opasity 0.4s ease;
+  }
+  .city:hover{
+    transform: scale(1.2);
+    background-color: red;
+    color: black;
+  
+  }
+  .city:hover::before{
+    opacity: 1;
+    animation: pulse 1s infinite;
+    
+  }
+  @keyframes pulse{
+    0%{
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    50%{
+      transform: scale(1.5);
+      opacity: 0;
+    }
+    100%{
+      transform: scale(1);
+      opacity: 0;
+    }
+  
+  }
+  .city{
+    position: absolute;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: rgb(129, 129, 129);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s ease, background-color 0.3 ease;
+  }
+  .post{
+    width: 50%;
+  }
+  .city-1{top:60px; left: 120px;}
+  .city-2{top:180px; left: 230px;}
+  .city-3{top:120px; left: 350px;}
+  /* ДЗ №5 вам потрібно на posts поставити display:flex; та в post зробити margin щоб були відступи */
